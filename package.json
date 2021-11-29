@@ -1,0 +1,31 @@
+{
+  "name": "@loghouse/http-transport",
+  "version": "1.0.0",
+  "description": "Http javascript client for Loghouse.io",
+  "main": "dist/index.js",
+  "keywords": [
+    "loghouse"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "jest"
+  },
+  "authors": [
+    {
+      "name": "Loghouse.io",
+      "email": "support@loghouse.io"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/loghouse-io/loghouse-http-client-js",
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-typescript": "^7.16.0",
+    "babel-jest": "^27.4.0",
+    "jest": "^27.3.1"
+  }
+}
